@@ -1,5 +1,0 @@
-# Koumputasi Aljabar Linear
-
-
-```{tableofcontents}
-```

@@ -1,1 +1,88 @@
-<meta http-equiv="Refresh" content="0; url=intro.html" />
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Orbitron"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- css file -->
+    <link rel="stylesheet" href="style/index.css" />
+    <link rel="stylesheet" href="style/animation.css" />
+
+    <!-- feather icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="left-navbar">
+        <a href="#" id="sideBarButton"><i data-feather="menu"></i></a>
+        <h2>INI LOGO</h2>
+      </div>
+      <!-- <div class="mid-navbar">
+        <form action="">
+          <input class="search-input" type="text" placeholder="Search" />
+          <button class="submit-button"><i data-feather="search"></i></button>
+        </form>
+      </div> -->
+      <div class="right-navbar">
+        <a href=""><i data-feather="user"></i></a>
+        <div class="theme-button" id="dark-mode-toggle">
+          <i data-feather="sun" class="light"></i>
+          <i data-feather="moon" class="dark"></i>
+        </div>
+      </div>
+    </div>
+    <div class="sidebar">
+      <a href="">link 1</a>
+      <a href="">link 2</a>
+      <a href="">link 3</a>
+      <a href="">link 4</a>
+    </div>
+
+    <div class="back-to-top-button">
+      <button id="backToTopButton" onclick="goToTop()">
+        <i class="feather" data-feather="arrow-up-circle"></i>
+      </button>
+    </div>
+    <div class="container">
+      <h1>COUNTDOWN ! ! !</h1>
+      <h1><br /></h1>
+      <h1 id="textDisplay"></h1>
+    </div>
+
+    <div class="area">
+      <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+
+    <script>
+      feather.replace();
+    </script>
+    <script src="script/script.js"></script>
+    <script src="script/countdown.js"></script>
+  </body>
+</html>
