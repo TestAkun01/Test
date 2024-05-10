@@ -11,11 +11,10 @@ var x = setInterval(function () {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   document.getElementById("textDisplay").innerHTML =
-    days + "d:" + hours + "h:" + minutes + "m:" + seconds + "s";
-
-  var teks = "Thank you for being here for a long time";
+    days + " D : " + hours + " H : " + minutes + " M : " + seconds + " S";
 
   var done = "0d:0h:0m:0s";
+  var teks = "Thank you for being here for a long time";
   var count = -1;
   if (distance < 1) {
     clearInterval(x);
